@@ -1,0 +1,32 @@
+.input-wrapper-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+
+  h3 {
+    text-align: center;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    input {
+      height: 20px;
+    }
+  }
+
+  button {
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
